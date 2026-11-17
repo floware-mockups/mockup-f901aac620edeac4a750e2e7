@@ -1,0 +1,244 @@
+{
+  "title": "Inventario degli arredi scolastici",
+  "description": "Gestisci gli arredi per aula, controlla le quantità e monitora lo stato di conservazione. Dati di prova interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dell’inventario e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Aule censite",
+          "value": "12"
+        },
+        {
+          "label": "Arredi registrati",
+          "value": "186"
+        },
+        {
+          "label": "In buono stato",
+          "value": "142"
+        },
+        {
+          "label": "Da verificare",
+          "value": "28"
+        },
+        {
+          "label": "Da riparare",
+          "value": "16"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Categoria",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco modulare",
+          "Banco",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedia impilabile",
+          "Sedia",
+          "22",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Armadio basso",
+          "Contenitore",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Brina",
+          "Tavolo laboratorio",
+          "Tavolo",
+          "6",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario arredi",
+      "description": "Consulta e filtra gli arredi registrati per aula, categoria e stato di conservazione.",
+      "metrics": [
+        {
+          "label": "Elementi in elenco",
+          "value": "186"
+        },
+        {
+          "label": "Aule rappresentate",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Categoria",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco modulare",
+          "Banco",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedia impilabile",
+          "Sedia",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Libreria bassa",
+          "Contenitore",
+          "3",
+          "Da verificare"
+        ],
+        [
+          "Aula Vela",
+          "Banco modulare",
+          "Banco",
+          "16",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedia impilabile",
+          "Sedia",
+          "22",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Armadio basso",
+          "Contenitore",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Aula Nubi",
+          "Tavolo laboratorio",
+          "Tavolo",
+          "6",
+          "Da riparare"
+        ],
+        [
+          "Aula Nubi",
+          "Sgabello regolabile",
+          "Seduta",
+          "8",
+          "Buono"
+        ],
+        [
+          "Aula Nubi",
+          "Carrello didattico",
+          "Supporto",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Aula Brina",
+          "Banco modulare",
+          "Banco",
+          "14",
+          "Buono"
+        ],
+        [
+          "Aula Brina",
+          "Sedia impilabile",
+          "Sedia",
+          "18",
+          "Da riparare"
+        ],
+        [
+          "Aula Brina",
+          "Libreria bassa",
+          "Contenitore",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Tavolo rettangolare",
+          "Tavolo",
+          "4",
+          "Da verificare"
+        ],
+        [
+          "Aula Rugiada",
+          "Sedia impilabile",
+          "Sedia",
+          "16",
+          "Buono"
+        ],
+        [
+          "Aula Rugiada",
+          "Armadio alto",
+          "Contenitore",
+          "1",
+          "Buono"
+        ],
+        [
+          "Aula Piuma",
+          "Banco modulare",
+          "Banco",
+          "15",
+          "Buono"
+        ],
+        [
+          "Aula Piuma",
+          "Sedia impilabile",
+          "Sedia",
+          "19",
+          "Buono"
+        ],
+        [
+          "Aula Piuma",
+          "Carrello didattico",
+          "Supporto",
+          "2",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra arredo",
+      "description": "Aggiungi un elemento all’inventario indicando aula, quantità e condizioni.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Categoria",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Categoria",
+        "Quantità",
+        "Stato di conservazione"
+      ]
+    }
+  ]
+}
